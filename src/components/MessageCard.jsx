@@ -13,19 +13,26 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const newLocal_1 = `Dear Kanchan,
 
-Your personalized birthday message goes here.
+Maine tere ko sbse acha dost or dil se apni bestie mana hai,  
+tune mere ko ek bar nhi hajar bar hurt kiya pr tu phle achi thi m sirf vo hi soch k maf kru ya bhool jau,
+ki kbhi to shi hongi,
+pr koi ni agr ab tera birthday aa gya or new year bhi ab shi se nhi rhi to m nhi rhunga.
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+Sach bolu toh, tu meri woh aadat hai
+jo chhodni bhi ho na, toh chhodi nahi ja sakti 💙
+Chahe din kharab ho ya life confusing,
+ek call, ek message — or hurt krti jati hai kbhi shi se tune time tk nhi diya 🎭
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Become first wali knuuu_____.
+🔥👑
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— Jakhar`;
+  const newLocal = newLocal_1;
+  const message = newLocal;
 
   // Handle page transitions
   useEffect(() => {
